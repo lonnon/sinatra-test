@@ -1,5 +1,5 @@
-require 'rubygems'
-require 'vendor/sinatra/lib/sinatra.rb'
+require 'vendor/rack/lib/rack'
+require 'vendor/sinatra/lib/sinatra'
 
 set :run, false
 set :environment, :production
